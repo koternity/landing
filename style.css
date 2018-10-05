@@ -1,15 +1,15 @@
 /* style.css */
 body{
-  background: rgb(245,245,245) ;
-  color: orange;
-  font-size: 18px;
-  font-family: Helvetica;
+  /*background: rgb(245,245,245) ;*/
+  color: black;
+  font-size: 35px;
+  font-family: 'Cairo', sans-serif;
 }
 h1{
   font-family: Courier;
-  color: red;
+  color: black;
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 40px;
 }
 h2 {
   font-family: 'Charmonman', cursive;
@@ -25,36 +25,66 @@ a:hover {
   color: purple;
 }
 
+#pond {
+  display: flex;
+  justify-content: space-around;
+}
+
 #banner{
   text-align: center;
   /*background-image: url("https://unsplash.it/1300/600?random");*/
-  background-image: url(images/background.jpg);
+  /*background-image: url(images/background.jpg);*/
   background-size: cover;
   background-attachment: fixed;
-  padding: 150px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
-  border-radius: 50px
+  height: 110px;
+  /*padding: 150px;*/
+  color: black;
+  /*text-shadow: 1px 1px 5px black;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*border-radius: 50px*/
+  border-width: 2px;
+  border-color: rgb(220,220,220);
+  border-style: solid;
+  font-family: 'Cairo', sans-serif;
+  font-size: 35px;
 }
 #banner h1 {
-  font-family: 'Mali', cursive;
+  font-family: 'Cairo', sans-serif;
   color: white;
   font-size: 50px;
 }
+
 #banner p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height 100vh;
   color: white;
   opacity: 0.8;
   font-size: 18px;
   font-weight: lighter;
 }
+
+#fond{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #footer{
   padding: 30px;
-  background: rgb(30, 30, 30);
+  background: rgb(60, 60, 60);
   color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #footer a {
   color: lightgrey;
-  font-size: 15px;
+  font-size: 30px;
 }
 #footer a:hover {
   color: white;
