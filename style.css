@@ -39,7 +39,7 @@ a:hover {
   height: 110px;
   /*padding: 150px;*/
   color: black;
-  /*text-shadow: 1px 1px 5px black;*/
+  /*text-shadow: 1px 1px 5px grey;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
